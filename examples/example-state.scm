@@ -2,16 +2,19 @@
 ;;; example-state.scm — Sample STATE.scm File
 ;;; ==================================================
 ;;;
+;;; SPDX-License-Identifier: MIT AND LicenseRef-Palimpsest-0.8
+;;; Copyright (c) 2025 Jonathan D.A. Jewell
+;;;
 ;;; This is an example showing a realistic state checkpoint
-;;; with multiple projects, dependencies, and session context.
+;;; with multiple projects, dependencies, history, and session context.
 ;;;
 ;;; ==================================================
 
 (define state
   '((metadata
-      (format-version . "1.0")
+      (format-version . "2.0")
       (schema-version . "2025-12-06")
-      (created-at . "2025-12-06T10:00:00Z")
+      (created-at . "2025-12-01T10:00:00Z")
       (last-updated . "2025-12-06T15:30:00Z")
       (generator . "Claude/STATE-system"))
 
@@ -163,6 +166,48 @@
        "Install NeuroPhone on hardware this week"
        "Review Palimpsest v0.6 specification"
        "Complete Echomesh MVP"))
+
+    (history
+      ;; Completion snapshots for velocity tracking
+      (snapshots
+        ((timestamp . "2025-12-01T10:00:00Z")
+         (projects
+           ((name . "Oblibeny") (completion . 25))
+           ((name . "My Language Solo") (completion . 10))
+           ((name . "ZeroStep") (completion . 5))
+           ((name . "NeuroPhone") (completion . 70))
+           ((name . "Echomesh") (completion . 20))
+           ((name . "UPM") (completion . 15))
+           ((name . "JanusKey") (completion . 60))
+           ((name . "Palimpsest") (completion . 45))
+           ((name . "Aletheia") (completion . 0))
+           ((name . "Seven Tentacles") (completion . 95))))
+
+        ((timestamp . "2025-12-03T10:00:00Z")
+         (projects
+           ((name . "Oblibeny") (completion . 32))
+           ((name . "My Language Solo") (completion . 12))
+           ((name . "ZeroStep") (completion . 8))
+           ((name . "NeuroPhone") (completion . 75))
+           ((name . "Echomesh") (completion . 28))
+           ((name . "UPM") (completion . 20))
+           ((name . "JanusKey") (completion . 60))
+           ((name . "Palimpsest") (completion . 50))
+           ((name . "Aletheia") (completion . 2))
+           ((name . "Seven Tentacles") (completion . 100))))
+
+        ((timestamp . "2025-12-06T10:00:00Z")
+         (projects
+           ((name . "Oblibeny") (completion . 40))
+           ((name . "My Language Solo") (completion . 15))
+           ((name . "ZeroStep") (completion . 10))
+           ((name . "NeuroPhone") (completion . 80))
+           ((name . "Echomesh") (completion . 35))
+           ((name . "UPM") (completion . 25))
+           ((name . "JanusKey") (completion . 60))
+           ((name . "Palimpsest") (completion . 55))
+           ((name . "Aletheia") (completion . 5))
+           ((name . "Seven Tentacles") (completion . 100))))))
 
     (files-created-this-session
       ("VEDS_HANDOVER.md"

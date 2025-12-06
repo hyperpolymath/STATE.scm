@@ -1,0 +1,8 @@
+# Security contact for STATE project
+# See https://securitytxt.org/
+
+Contact: https://github.com/Hyperpolymath/STATE.scm/security/advisories/new
+Expires: 2026-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://github.com/Hyperpolymath/STATE.scm/.well-known/security.txt
+Policy: https://github.com/Hyperpolymath/STATE.scm/blob/main/SECURITY.md
