@@ -1,6 +1,6 @@
 # CITATION.cff - Citation File Format for STATE.scm
 # https://citation-file-format.github.io/
-# SPDX-License-Identifier: AGPL-3.0-or-later OR LicenseRef-Palimpsest-0.5
+# SPDX-License-Identifier: MIT OR AGPL-3.0-or-later
 
 cff-version: 1.2.0
 title: "STATE.scm"
@@ -14,11 +14,15 @@ authors:
     affiliation: "Rhodium Standard / Independent Researcher"
 repository-code: "https://github.com/hyperpolymath/STATE.scm"
 url: "https://rhodium.sh/projects/state.scm"
-abstract: "RSR-compliant project"
+abstract: "Stateful Context Tracking Engine for AI Conversation Continuity - a checkpoint/restore system that persists project context across Claude conversations using Guile Scheme with minikanren-style relational queries."
 keywords:
   - RSR
   - rhodium-standard
-license: "AGPL-3.0-or-later"
+  - guile-scheme
+  - ai-conversation
+  - state-management
+  - minikanren
+license: "MIT"
 license-url: "https://github.com/hyperpolymath/STATE.scm/blob/main/LICENSE.txt"
-version: "0.1.0"
-date-released: "2025-12-10"
+version: "2.0.0"
+date-released: "2025-12-08"

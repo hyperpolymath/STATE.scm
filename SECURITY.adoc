@@ -21,8 +21,8 @@ If you discover a security vulnerability in STATE, please report it responsibly.
 === How to Report
 
 . *Do NOT* open a public issue for security vulnerabilities
-. Email: security@example.com (replace with actual contact)
-. Or use GitLab's confidential issue feature if available
+. Use https://github.com/hyperpolymath/STATE.scm/security/advisories/new[GitHub Security Advisories] to report privately
+. Or email: hyperpolymath@proton.me with subject "STATE Security"
 
 === What to Include
 

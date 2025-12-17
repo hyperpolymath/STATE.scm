@@ -1,4 +1,4 @@
-;;; SPDX-License-Identifier: MIT AND LicenseRef-Palimpsest-0.8
+;;; SPDX-License-Identifier: MIT OR AGPL-3.0-or-later
 ;;; guix.scm — Guix package definition for STATE
 ;;;
 ;;; This file defines STATE as a Guix package.
@@ -34,15 +34,12 @@
    (list guile-3.0))
   (propagated-inputs
    (list guile-3.0))
-  (home-page "https://github.com/Hyperpolymath/STATE.scm")
+  (home-page "https://github.com/hyperpolymath/STATE.scm")
   (synopsis "Stateful Context Tracking Engine for AI Conversation Continuity")
   (description
    "STATE is a checkpoint/restore system for AI conversations that persists
 project context, decisions, and next actions across multiple Claude
 conversations.  It uses Guile Scheme with minikanren-style relational
 queries for analyzing project dependencies and estimating completion times.")
-  (license (list license:expat  ; MIT
-                 ;; Palimpsest v0.8 - custom license
-                 (license:non-copyleft
-                  "file://LICENSE.txt"
-                  "Palimpsest v0.8 additional terms"))))
+  (license (list license:expat        ; MIT
+                 license:agpl3+)))    ; AGPL-3.0-or-later

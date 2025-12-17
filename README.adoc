@@ -236,7 +236,7 @@ Comparison:
 
 == License
 
-Dual licensed under MIT and Palimpsest v0.8. See LICENSE.txt for details.
+Dual licensed under MIT OR AGPL-3.0-or-later (your choice). The Palimpsest principles are encouraged but not legally required. See LICENSE.txt for details.
 
 == Author
 
