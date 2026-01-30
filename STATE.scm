@@ -1,4 +1,4 @@
-;; SPDX-License-Identifier: PMPL-1.0 AND LicenseRef-Palimpsest-0.8
+;; SPDX-License-Identifier: PMPL-1.0-or-later
 ;; STATE.scm - Project state for STATE itself (meta!)
 
 (state
