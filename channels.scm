@@ -1,4 +1,4 @@
-;;; SPDX-License-Identifier: MIT AND LicenseRef-Palimpsest-0.8
+;;; SPDX-License-Identifier: PMPL-1.0-or-later
 ;;; channels.scm — Guix channel definition for STATE
 ;;;
 ;;; This file defines the Guix channels needed for STATE development.
